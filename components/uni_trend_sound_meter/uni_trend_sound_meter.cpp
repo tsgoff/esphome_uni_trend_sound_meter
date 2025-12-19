@@ -116,7 +116,7 @@ optional<float> UnitTrendSoundMeter::parse_data_(uint8_t *value, uint16_t value_
 
 void UnitTrendSoundMeter::dump_config() {
   LOG_SENSOR("", "UNI-T UT353BT Mini Sound Meter", this);
-  ESP_LOGCONFIG(TAG, "  MAC address        : %s", this->parent()->address_str().c_str());
+  ESP_LOGCONFIG(TAG, "  MAC address        : %s", this->parent()->address_str());
   ESP_LOGCONFIG(TAG, "  Service UUID       : %s", this->service_uuid_.to_string().c_str());
   ESP_LOGCONFIG(TAG, "  Input character UUID: %s", this->input_char_uuid_.to_string().c_str());
   ESP_LOGCONFIG(TAG, "  Output character UUID: %s", this->output_char_uuid_.to_string().c_str());
