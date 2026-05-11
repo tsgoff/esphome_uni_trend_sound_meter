@@ -1,5 +1,10 @@
 # ESPHome Component: Uni-T (Uni Trend) Mini Sound Level Meter
 
+> **⚠️ This repository is no longer maintained.**
+> A new native Home Assistant integration is available at **[daweizhangau/ha-uni-t-ble](https://github.com/daweizhangau/ha-uni-t-ble)**.
+> It works without an ESP32 (or with one as a [Bluetooth Proxy](https://esphome.io/components/bluetooth_proxy.html)) and is installable via HACS.
+> Please migrate to that integration — this repo will be archived once users have had time to transition.
+
 This is a bridge for a [Uni-T Mini Sound Level Meter UT353BT](https://meters.uni-trend.com/product/ut353-ut353bt/) and an [ESP32 device](https://esphome.io/devices/esp32.html).
 
 After this integration, the sound meter can work with Home Assitant. Every time the meter is powered on and its Bluetooth is enabled, ESP32 device can connect to it automatically and start to collect the measurement [dBA](https://www.nexflow.com/blog/what-does-dba-mean/).
